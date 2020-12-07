@@ -161,8 +161,8 @@ public class ConversationActivity extends AppCompatActivity {
             }
 
             if (cameraAndMicPermissionGranted) {
-                createAudioAndVideoTracks();
-                connectToRoom(roomId);
+                //createAudioAndVideoTracks();
+                //connectToRoom(roomId);
             } else {
                 Toast.makeText(this,
                         R.string.permissions_needed,
