@@ -129,14 +129,14 @@ public class ConversationActivity extends AppCompatActivity {
          * Check camera and microphone permissions. Needed in Android M.
          */
 	
-	 /*
+	 
         if (!checkPermissionForCameraAndMicrophone()) {
-          //  requestPermissionForCameraAndMicrophone();
+            requestPermissionForCameraAndMicrophone();
         } else {
             //createAudioAndVideoTracks();
             //connectToRoom(roomId);
         }
-	*/
+	
                 Toast.makeText(this,
                         "this is duc test",
                         Toast.LENGTH_LONG).show();	    
