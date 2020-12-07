@@ -136,12 +136,12 @@ public class ConversationActivity extends AppCompatActivity {
         }
 	    
 	
-
+	finish();
         /*
          * Set the initial state of the UI
          */
-        intializeUI();
-	    disconnectClickListener();
+        //intializeUI();
+	//    disconnectClickListener();
     }
 
     @Override
