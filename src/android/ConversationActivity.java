@@ -131,9 +131,11 @@ public class ConversationActivity extends AppCompatActivity {
         if (!checkPermissionForCameraAndMicrophone()) {
             requestPermissionForCameraAndMicrophone();
         } else {
-            createAudioAndVideoTracks();
-            connectToRoom(roomId);
+            //createAudioAndVideoTracks();
+            //connectToRoom(roomId);
         }
+	    
+	return;    
 
         /*
          * Set the initial state of the UI
