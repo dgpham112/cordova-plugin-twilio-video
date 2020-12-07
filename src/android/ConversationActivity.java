@@ -135,12 +135,13 @@ public class ConversationActivity extends AppCompatActivity {
             //connectToRoom(roomId);
         }
 	    
-	return;    
+	
 
         /*
          * Set the initial state of the UI
          */
         intializeUI();
+	    disconnectClickListener();
     }
 
     @Override
