@@ -135,11 +135,7 @@ public class ConversationActivity extends AppCompatActivity {
         } else {
             //createAudioAndVideoTracks();
             //connectToRoom(roomId);
-        }
-	
-                Toast.makeText(this,
-                        "this is duc test",
-                        Toast.LENGTH_LONG).show();	    
+        }    
 	
 	finish();
         /*
